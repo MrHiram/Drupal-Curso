@@ -1,0 +1,36 @@
+uuid: a0b6b9ba-11d6-4814-9d34-22a1f9b146ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.estatuas.body
+    - field.field.node.estatuas.field_imagen
+    - field.field.node.estatuas.field_video
+    - image.style.small_custom_image_size
+    - node.type.estatuas
+  module:
+    - media
+    - user
+id: node.estatuas.teaser
+targetEntityType: node
+bundle: estatuas
+mode: teaser
+content:
+  field_imagen:
+    type: media_thumbnail
+    weight: 0
+    region: content
+    label: hidden
+    settings:
+      image_style: small_custom_image_size
+      image_link: ''
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true
+  field_video: true

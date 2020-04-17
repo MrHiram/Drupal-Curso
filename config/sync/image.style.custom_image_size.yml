@@ -1,0 +1,15 @@
+uuid: 2d40cbbf-a131-40ea-9ced-23692f17b775
+langcode: en
+status: true
+dependencies: {  }
+name: custom_image_size
+label: 'Custom image size'
+effects:
+  cb00d8a3-c14e-428c-9b90-e51100173073:
+    uuid: cb00d8a3-c14e-428c-9b90-e51100173073
+    id: image_crop
+    weight: 1
+    data:
+      width: 760
+      height: 420
+      anchor: center-center

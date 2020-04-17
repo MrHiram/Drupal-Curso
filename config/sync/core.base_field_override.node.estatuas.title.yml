@@ -1,0 +1,18 @@
+uuid: 4d644739-a0fe-4a24-826f-960674cec552
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.estatuas
+id: node.estatuas.title
+field_name: title
+entity_type: node
+bundle: estatuas
+label: Nombre
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

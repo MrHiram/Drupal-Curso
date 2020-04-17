@@ -1,0 +1,28 @@
+uuid: 5b08f514-10d6-4aaf-bb4f-e0949a44f084
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_imagen
+    - media.type.image_uploader
+    - node.type.estatuas
+id: node.estatuas.field_imagen
+field_name: field_imagen
+entity_type: node
+bundle: estatuas
+label: Imagen
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image_uploader: image_uploader
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

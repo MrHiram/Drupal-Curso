@@ -1,0 +1,23 @@
+uuid: 1535ee7f-1dcd-4ca1-8f44-1e638362a848
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.estatuas
+  module:
+    - text
+id: node.estatuas.body
+field_name: body
+entity_type: node
+bundle: estatuas
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

@@ -1,0 +1,50 @@
+uuid: 812fee86-876c-4fbf-83f8-34e0479736ba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.estatuas.body
+    - field.field.node.estatuas.field_imagen
+    - field.field.node.estatuas.field_video
+    - image.style.normal_custom_size
+    - node.type.estatuas
+  module:
+    - media
+    - text
+    - user
+id: node.estatuas.default
+targetEntityType: node
+bundle: estatuas
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_imagen:
+    type: media_thumbnail
+    weight: 0
+    label: hidden
+    settings:
+      image_style: normal_custom_size
+      image_link: ''
+    third_party_settings: {  }
+    region: content
+  field_video:
+    type: entity_reference_entity_view
+    weight: 3
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

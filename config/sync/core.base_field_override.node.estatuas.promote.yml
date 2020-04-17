@@ -1,0 +1,22 @@
+uuid: ec31093c-da41-4a07-8b3e-cfe70dac842e
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.estatuas
+id: node.estatuas.promote
+field_name: promote
+entity_type: node
+bundle: estatuas
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

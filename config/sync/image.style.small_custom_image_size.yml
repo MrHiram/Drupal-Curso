@@ -1,0 +1,15 @@
+uuid: 749d70c1-d5d0-4878-b9b3-81c65798e10c
+langcode: en
+status: true
+dependencies: {  }
+name: small_custom_image_size
+label: 'Small Custom image size'
+effects:
+  0a825b7b-e4a7-4e4f-afa6-eb2c7943f629:
+    uuid: 0a825b7b-e4a7-4e4f-afa6-eb2c7943f629
+    id: image_crop
+    weight: 1
+    data:
+      width: 250
+      height: 250
+      anchor: center-center

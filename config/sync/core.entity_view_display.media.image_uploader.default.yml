@@ -1,0 +1,29 @@
+uuid: 4f213119-baa8-4468-894e-dc3067366f2a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.image_uploader.field_media_image_1
+    - image.style.large
+    - media.type.image_uploader
+  module:
+    - image
+id: media.image_uploader.default
+targetEntityType: media
+bundle: image_uploader
+mode: default
+content:
+  field_media_image_1:
+    label: visually_hidden
+    weight: 0
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

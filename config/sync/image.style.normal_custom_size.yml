@@ -1,0 +1,15 @@
+uuid: b10f1f63-3391-4753-a704-7a7827f2b752
+langcode: en
+status: true
+dependencies: {  }
+name: normal_custom_size
+label: 'Normal Custom Size'
+effects:
+  fb370c30-b386-48b3-aa4a-c0bf00575970:
+    uuid: fb370c30-b386-48b3-aa4a-c0bf00575970
+    id: image_crop
+    weight: 1
+    data:
+      width: 500
+      height: 500
+      anchor: center-center

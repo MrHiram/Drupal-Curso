@@ -1,0 +1,44 @@
+uuid: 17222036-0fe0-4ad1-998b-924939b11062
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.media_entity_browser
+  module:
+    - entity_browser_entity_form
+    - views
+_core:
+  default_config_hash: VOi0Ua3BAuJlwzee4EWw-XHxybYY-IqVBetnROZff_I
+name: media_entity_browser_modal
+label: 'Media Entity Browser Video'
+display: modal
+display_configuration:
+  width: '1070'
+  height: '500'
+  link_text: 'Select media'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  b6678078-21d5-42b9-95e9-21599669e8ff:
+    settings:
+      view: media_entity_browser
+      view_display: media_browser_all
+      submit_text: 'Select entities'
+      auto_select: false
+    uuid: b6678078-21d5-42b9-95e9-21599669e8ff
+    weight: 1
+    label: Biblioteca
+    id: view
+  e5ac790e-3027-4bb5-a162-c8412d3d542c:
+    settings:
+      entity_type: media
+      bundle: video_uploader
+      form_mode: default
+      submit_text: 'Save entity'
+    uuid: e5ac790e-3027-4bb5-a162-c8412d3d542c
+    weight: 2
+    label: 'Subir Video'
+    id: entity_form

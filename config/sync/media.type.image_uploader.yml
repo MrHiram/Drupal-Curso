@@ -1,0 +1,13 @@
+uuid: 4f383a7b-5d1d-444e-9cc6-9c467b8f8ec7
+langcode: en
+status: true
+dependencies: {  }
+id: image_uploader
+label: 'Image Uploader'
+description: ''
+source: image
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_image_1
+field_map: {  }

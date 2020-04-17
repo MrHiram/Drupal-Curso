@@ -1,0 +1,28 @@
+uuid: 0c41bc26-dfe5-42cd-b18b-6fcb852a5e61
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.media.video_uploader.field_media_oembed_video_1
+    - media.type.video_uploader
+  module:
+    - media
+id: media.video_uploader.default
+targetEntityType: media
+bundle: video_uploader
+mode: default
+content:
+  field_media_oembed_video_1:
+    type: oembed
+    label: visually_hidden
+    weight: 0
+    settings:
+      max_width: 0
+      max_height: 0
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  name: true
+  thumbnail: true
+  uid: true

@@ -1,0 +1,44 @@
+uuid: 3338a493-4fa7-4498-bcca-03921a9e024e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.duplicate_of_media_browser
+  module:
+    - views
+_core:
+  default_config_hash: R9WRMEJZt-oC18igXrWiv_yywFhm_ugH3Oj71M_Zk5U
+name: media_entity_browser
+label: 'Media Entity Browser Images'
+display: modal
+display_configuration:
+  width: '1070'
+  height: '500'
+  link_text: 'Select media'
+  auto_open: false
+selection_display: no_display
+selection_display_configuration: {  }
+widget_selector: tabs
+widget_selector_configuration: {  }
+widgets:
+  180ed408-8832-400e-83fb-f9d43bde262a:
+    settings:
+      view: duplicate_of_media_browser
+      view_display: media_browser_all
+      submit_text: 'Select entities'
+      auto_select: false
+    uuid: 180ed408-8832-400e-83fb-f9d43bde262a
+    weight: -9
+    label: Libreria
+    id: view
+  a178cfc6-6ff1-467f-8056-212859a8ba01:
+    settings:
+      extensions: 'jpg jpeg png svg'
+      media_type: image_uploader
+      upload_location: 'public://'
+      multiple: '1'
+      submit_text: 'Select files'
+    uuid: a178cfc6-6ff1-467f-8056-212859a8ba01
+    weight: -10
+    label: 'Subir Imagen'
+    id: media_image_upload
