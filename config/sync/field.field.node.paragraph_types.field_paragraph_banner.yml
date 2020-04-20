@@ -1,0 +1,37 @@
+uuid: 4bc7a20c-b8db-4b01-9477-e4401c7e9a39
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraph_banner
+    - node.type.paragraph_types
+    - paragraphs.paragraphs_type.texto_con_imagen
+  module:
+    - entity_reference_revisions
+id: node.paragraph_types.field_paragraph_banner
+field_name: field_paragraph_banner
+entity_type: node
+bundle: paragraph_types
+label: 'paragraph banner'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      texto_con_imagen: texto_con_imagen
+    target_bundles_drag_drop:
+      testimonials_paragraph:
+        weight: 4
+        enabled: false
+      texto:
+        weight: 5
+        enabled: false
+      texto_con_imagen:
+        enabled: true
+        weight: 6
+field_type: entity_reference_revisions

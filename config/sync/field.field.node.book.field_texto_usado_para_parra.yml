@@ -1,0 +1,36 @@
+uuid: e788a150-5dd6-4d58-be64-44b7b56e4a4e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_texto_usado_para_parra
+    - node.type.book
+    - paragraphs.paragraphs_type.texto
+    - paragraphs.paragraphs_type.texto_con_imagen
+  module:
+    - entity_reference_revisions
+id: node.book.field_texto_usado_para_parra
+field_name: field_texto_usado_para_parra
+entity_type: node
+bundle: book
+label: 'texto usado para parrafos'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      texto: texto
+      texto_con_imagen: texto_con_imagen
+    target_bundles_drag_drop:
+      texto:
+        enabled: true
+        weight: 3
+      texto_con_imagen:
+        enabled: true
+        weight: 4
+field_type: entity_reference_revisions

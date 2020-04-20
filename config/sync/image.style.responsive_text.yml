@@ -1,0 +1,7 @@
+uuid: 854d6e94-2bde-4d9d-934e-d1473866635e
+langcode: en
+status: true
+dependencies: {  }
+name: responsive_text
+label: 'Responsive text'
+effects: {  }

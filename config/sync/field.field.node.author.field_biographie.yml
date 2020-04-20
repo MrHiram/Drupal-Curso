@@ -1,0 +1,21 @@
+uuid: 0a19c2e2-156c-4e69-9810-2a05b42a5d5d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_biographie
+    - node.type.author
+  module:
+    - text
+id: node.author.field_biographie
+field_name: field_biographie
+entity_type: node
+bundle: author
+label: Biographie
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

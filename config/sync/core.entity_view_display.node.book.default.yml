@@ -1,0 +1,88 @@
+uuid: 80d13d88-01ba-4825-98ac-770568ad1306
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.book.field_author
+    - field.field.node.book.field_front_page
+    - field.field.node.book.field_isbn
+    - field.field.node.book.field_resumen_en_video
+    - field.field.node.book.field_summary
+    - field.field.node.book.field_tag
+    - field.field.node.book.field_texto_usado_para_parra
+    - node.type.book
+    - responsive_image.styles.hero_image
+  module:
+    - entity_reference_revisions
+    - responsive_image
+    - text
+    - user
+id: node.book.default
+targetEntityType: node
+bundle: book
+mode: default
+content:
+  field_author:
+    weight: 4
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_front_page:
+    weight: 1
+    label: inline
+    settings:
+      responsive_image_style: hero_image
+      image_link: ''
+    third_party_settings: {  }
+    type: responsive_image
+    region: content
+  field_isbn:
+    weight: 2
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_resumen_en_video:
+    type: entity_reference_entity_view
+    weight: 6
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    region: content
+  field_summary:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_tag:
+    weight: 5
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_entity_view
+    region: content
+  field_texto_usado_para_parra:
+    type: entity_reference_revisions_entity_view
+    weight: 7
+    label: visually_hidden
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

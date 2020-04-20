@@ -1,0 +1,12 @@
+uuid: e179af37-3ab1-4cda-a8a5-638f1ae400a8
+langcode: en
+status: true
+dependencies: {  }
+id: this_is_the_label
+label: 'This is the label'
+recipients:
+  - support@gogotoucan.com
+reply: ''
+weight: 0
+message: 'this is the message'
+redirect: ''

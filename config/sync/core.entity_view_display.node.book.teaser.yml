@@ -1,0 +1,44 @@
+uuid: 32570777-50fd-4c74-9bf1-49c2fc78724b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.book.field_author
+    - field.field.node.book.field_front_page
+    - field.field.node.book.field_isbn
+    - field.field.node.book.field_resumen_en_video
+    - field.field.node.book.field_summary
+    - field.field.node.book.field_tag
+    - field.field.node.book.field_texto_usado_para_parra
+    - image.style.thumbnail
+    - node.type.book
+  module:
+    - image
+    - user
+id: node.book.teaser
+targetEntityType: node
+bundle: book
+mode: teaser
+content:
+  field_front_page:
+    type: image
+    weight: 0
+    region: content
+    label: inline
+    settings:
+      image_style: thumbnail
+      image_link: content
+    third_party_settings: {  }
+  links:
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_author: true
+  field_isbn: true
+  field_resumen_en_video: true
+  field_summary: true
+  field_tag: true
+  field_texto_usado_para_parra: true

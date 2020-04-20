@@ -1,0 +1,21 @@
+uuid: ad2c54a2-65e1-4760-a2d4-804d4626a059
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lastname
+    - node.type.author
+  module:
+    - text
+id: node.author.field_lastname
+field_name: field_lastname
+entity_type: node
+bundle: author
+label: Lastname
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

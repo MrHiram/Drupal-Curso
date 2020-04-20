@@ -1,0 +1,19 @@
+uuid: 8ef042c3-258e-43b5-872e-82dba112672a
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_cuerpo_testimonials
+field_name: field_cuerpo_testimonials
+entity_type: paragraph
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

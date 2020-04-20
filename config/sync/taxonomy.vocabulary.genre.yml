@@ -1,0 +1,8 @@
+uuid: 8bda2061-099c-47ea-84a3-93a5c9c139a7
+langcode: en
+status: true
+dependencies: {  }
+name: Genre
+vid: genre
+description: 'Books genre'
+weight: 0

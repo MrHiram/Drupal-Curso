@@ -1,0 +1,45 @@
+uuid: 1ebe0ae7-95d4-4629-9457-3731dbc86bba
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.texto_con_imagen.field_imagen
+    - field.field.paragraph.texto_con_imagen.field_texto_paragraph_image
+    - field.field.paragraph.texto_con_imagen.field_titulo
+    - paragraphs.paragraphs_type.texto_con_imagen
+  module:
+    - text
+id: paragraph.texto_con_imagen.default
+targetEntityType: paragraph
+bundle: texto_con_imagen
+mode: default
+content:
+  field_imagen:
+    weight: 0
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_texto_paragraph_image:
+    weight: 1
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_titulo:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
+hidden:
+  created: true
+  status: true

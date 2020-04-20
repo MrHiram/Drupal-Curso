@@ -1,0 +1,37 @@
+uuid: 8cc0d94b-fadd-46bd-ab99-966a5d77eebe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_paragraph_testimonial
+    - node.type.paragraph_types
+    - paragraphs.paragraphs_type.testimonials_paragraph
+  module:
+    - entity_reference_revisions
+id: node.paragraph_types.field_paragraph_testimonial
+field_name: field_paragraph_testimonial
+entity_type: node
+bundle: paragraph_types
+label: 'paragraph testimonial'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      testimonials_paragraph: testimonials_paragraph
+    target_bundles_drag_drop:
+      testimonials_paragraph:
+        enabled: true
+        weight: 4
+      texto:
+        weight: 5
+        enabled: false
+      texto_con_imagen:
+        weight: 6
+        enabled: false
+field_type: entity_reference_revisions

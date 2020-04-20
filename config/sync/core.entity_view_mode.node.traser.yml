@@ -1,0 +1,10 @@
+uuid: 888fe93f-7937-4064-b75b-c78abc8149da
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.traser
+label: 'Traser 2'
+targetEntityType: node
+cache: true

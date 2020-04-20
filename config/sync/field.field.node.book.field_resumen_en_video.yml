@@ -1,0 +1,30 @@
+uuid: 10b14676-8ce1-424b-9c4b-7064964dae28
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resumen_en_video
+    - media.type.para_ver_videos
+    - media.type.remote_video
+    - node.type.book
+id: node.book.field_resumen_en_video
+field_name: field_resumen_en_video
+entity_type: node
+bundle: book
+label: 'Resumen en video'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      para_ver_videos: para_ver_videos
+      remote_video: remote_video
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: para_ver_videos
+field_type: entity_reference

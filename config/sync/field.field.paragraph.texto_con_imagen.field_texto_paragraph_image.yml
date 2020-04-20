@@ -1,0 +1,21 @@
+uuid: 16c44f51-6ab2-43f4-ac61-19625ef3494a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_texto_paragraph_image
+    - paragraphs.paragraphs_type.texto_con_imagen
+  module:
+    - text
+id: paragraph.texto_con_imagen.field_texto_paragraph_image
+field_name: field_texto_paragraph_image
+entity_type: paragraph
+bundle: texto_con_imagen
+label: Cuerpo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

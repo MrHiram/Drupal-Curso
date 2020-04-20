@@ -1,0 +1,36 @@
+uuid: c04cefca-3cc5-4967-824f-ccf290215af6
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.paragraph_types.body
+    - field.field.node.paragraph_types.field_paragraph_banner
+    - field.field.node.paragraph_types.field_paragraph_content_
+    - field.field.node.paragraph_types.field_paragraph_testimonial
+    - node.type.paragraph_types
+  module:
+    - text
+    - user
+id: node.paragraph_types.teaser
+targetEntityType: node
+bundle: paragraph_types
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_paragraph_banner: true
+  field_paragraph_content_: true
+  field_paragraph_testimonial: true

@@ -1,0 +1,18 @@
+uuid: e6616e14-e156-42a1-8397-16dbdbcc4240
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Paragraph types'
+type: paragraph_types
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

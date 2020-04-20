@@ -1,0 +1,21 @@
+uuid: 6ceebdb3-22f5-45ee-ae95-6c54b8c8caaa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_cuerpo_testimonials
+    - paragraphs.paragraphs_type.testimonials_paragraph
+  module:
+    - text
+id: paragraph.testimonials_paragraph.field_cuerpo_testimonials
+field_name: field_cuerpo_testimonials
+entity_type: paragraph
+bundle: testimonials_paragraph
+label: 'cuerpo testimonials'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

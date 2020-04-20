@@ -1,0 +1,25 @@
+uuid: d3f2da5e-1d21-41e5-8d39-305526c2448f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:6bd113ff-fda6-484b-81ee-259495608e1d'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: helloworld
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'block_content:6bd113ff-fda6-484b-81ee-259495608e1d'
+settings:
+  id: 'block_content:6bd113ff-fda6-484b-81ee-259495608e1d'
+  label: 'Hello world'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 43842a45-31fc-48d3-8c0c-e8314b1a2bea
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - text
+id: paragraph.field_titulo_testimonials
+field_name: field_titulo_testimonials
+entity_type: paragraph
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

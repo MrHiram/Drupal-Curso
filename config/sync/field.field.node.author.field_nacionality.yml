@@ -1,0 +1,21 @@
+uuid: 25e2e347-0353-4ce6-85b4-b1fb29d16b69
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_nacionality
+    - node.type.author
+  module:
+    - text
+id: node.author.field_nacionality
+field_name: field_nacionality
+entity_type: node
+bundle: author
+label: Nacionality
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

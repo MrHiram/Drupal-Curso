@@ -1,0 +1,15 @@
+uuid: 97df1131-ba67-4bae-b7ff-6b39edcc6e11
+langcode: en
+status: true
+dependencies: {  }
+name: super_small_im
+label: 'Super Small Image'
+effects:
+  1297c313-bd2b-4859-831b-2f2c7cf385ab:
+    uuid: 1297c313-bd2b-4859-831b-2f2c7cf385ab
+    id: image_scale
+    weight: -10
+    data:
+      width: 400
+      height: 300
+      upscale: false
