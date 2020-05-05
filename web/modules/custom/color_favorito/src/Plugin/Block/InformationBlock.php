@@ -17,7 +17,8 @@ use Symfony\Component\DependencyInjection\ContainerInterface;
  *   admin_label = @Translation("Info del color favorito"),
  * )
  */
-class InformationBlock extends BlockBase implements ContainerFactoryPluginInterface{
+class InformationBlock extends BlockBase implements ContainerFactoryPluginInterface
+{
     /**
      * @var AccountProxyInterface
      */
@@ -34,8 +35,8 @@ class InformationBlock extends BlockBase implements ContainerFactoryPluginInterf
         $plugin_id,
         $plugin_definition,
         AccountProxyInterface $current_user,
-        ConfigFactory $config_factory)
-    {
+        ConfigFactory $config_factory
+    ) {
         parent::__construct($configuration, $plugin_id, $plugin_definition);
 
         $this->current_user = $current_user;
@@ -53,20 +54,21 @@ class InformationBlock extends BlockBase implements ContainerFactoryPluginInterf
         ContainerInterface $container,
         array $configuration,
         $plugin_id,
-        $plugin_definition)
-    {
+        $plugin_definition
+    ) {
+
         //config.factory
         //https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Config%21ConfigFactory.php/class/ConfigFactory/8.8.x
 
         //current_user
         //https://api.drupal.org/api/drupal/core!core.services.yml/service/current_user/8.8.x
         return new static(
-            $configuration,
-            $plugin_id,
-            $plugin_definition,
-            $container->get('current_user'),
-            $container->get('config.factory'),
-        );
+			$configuration,
+			$plugin_id,
+			$plugin_definition,
+			$container->get('current_user'),
+			$container->get('config.factory')
+		);
     }
 
     public function build()
