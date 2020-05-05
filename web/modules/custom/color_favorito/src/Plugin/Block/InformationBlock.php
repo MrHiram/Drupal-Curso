@@ -63,12 +63,12 @@ class InformationBlock extends BlockBase implements ContainerFactoryPluginInterf
         //current_user
         //https://api.drupal.org/api/drupal/core!core.services.yml/service/current_user/8.8.x
         return new static(
-			$configuration,
-			$plugin_id,
-			$plugin_definition,
-			$container->get('current_user'),
-			$container->get('config.factory')
-		);
+            $configuration,
+            $plugin_id,
+            $plugin_definition,
+            $container->get('current_user'),
+            $container->get('config.factory'),
+        );
     }
 
     public function build()
