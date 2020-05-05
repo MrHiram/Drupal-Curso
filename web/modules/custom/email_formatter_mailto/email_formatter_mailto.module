@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains email_formatter_mailto.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function email_formatter_mailto_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the email_formatter_mailto module.
+    case 'help.page.email_formatter_mailto':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Modulo para agregar un formato nuevo al email') . '</p>';
+      return $output;
+
+    default:
+  }
+}
