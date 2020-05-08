@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2020-05\/InformaticaEmpresarial.pdf"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "2bd750e2-bedf-416c-9575-134707f1652a"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "337b5c77-26df-4ce3-84d3-d5af10b3819e"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "InformaticaEmpresarial.pdf"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-05\/InformaticaEmpresarial.pdf",
+            "url": "\/sites\/default\/files\/2020-05\/InformaticaEmpresarial.pdf"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "application\/pdf"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 96061
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-05-08T17:35:55+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-05-08T17:36:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

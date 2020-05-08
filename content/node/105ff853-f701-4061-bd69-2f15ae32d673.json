@@ -1,0 +1,196 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/8?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/curso"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/field_carrera": [
+            {
+                "href": "http:\/\/default\/node\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/field_programa_del_curso": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-05\/programa-curso-tm7200_0.pdf"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "105ff853-f701-4061-bd69-2f15ae32d673"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "curso"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-05-08T17:44:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "337b5c77-26df-4ce3-84d3-d5af10b3819e"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "337b5c77-26df-4ce3-84d3-d5af10b3819e"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/field_carrera": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/carrera"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "21cd748e-08fd-4433-952e-31577326f831"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/field_programa_del_curso": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-05\/programa-curso-tm7200_0.pdf"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2d000514-3b60-4eda-b189-7ab30f1f0912"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Desarrollo r\u00e1pido de aplicaciones",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-05-08T17:43:58+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-05-08T17:44:28+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Existen muchas formas de desarrollar aplicaciones, una de ellas y la m\u00e1s usada en los \u00faltimos a a\u00f1os es a trav\u00e9s de un lenguaje de programaci\u00f3n, pero con la llegada de los gestores de contenido esta tendencia ha ido cambiando. Hoy d\u00eda el uso de herramientas que ofrecen al desarrollador una serie de plantillas predefinidas se ha popularizado.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Existen muchas formas de desarrollar aplicaciones, una de ellas y la m\u00e1s usada en los \u00faltimos a a\u00f1os es a trav\u00e9s de un lenguaje de programaci\u00f3n, pero con la llegada de los gestores de contenido esta tendencia ha ido cambiando. Hoy d\u00eda el uso de herramientas que ofrecen al desarrollador una serie de plantillas predefinidas se ha popularizado.<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_codigo_del_curso": [
+        {
+            "value": "TM 7200"
+        }
+    ]
+}

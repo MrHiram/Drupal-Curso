@@ -1,0 +1,20 @@
+uuid: ab7b3aed-efc6-43e6-adf6-c6cae494b499
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_campus_en_que_se_imparte
+field_name: field_campus_en_que_se_imparte
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,52 @@
+uuid: fd365524-da46-4ad6-a0fa-18727adf2a69
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.curso.body
+    - field.field.node.curso.field_carrera
+    - field.field.node.curso.field_codigo_del_curso
+    - field.field.node.curso.field_programa_del_curso
+    - node.type.curso
+  module:
+    - file
+    - text
+    - user
+id: node.curso.default
+targetEntityType: node
+bundle: curso
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_carrera:
+    weight: 3
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_codigo_del_curso:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_programa_del_curso:
+    weight: 2
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+hidden:
+  links: true

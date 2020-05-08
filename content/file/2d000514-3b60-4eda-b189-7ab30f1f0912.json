@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2020-05\/programa-curso-tm7200_0.pdf"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "2d000514-3b60-4eda-b189-7ab30f1f0912"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "337b5c77-26df-4ce3-84d3-d5af10b3819e"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "programa-curso-tm7200_0.pdf"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-05\/programa-curso-tm7200_0.pdf",
+            "url": "\/sites\/default\/files\/2020-05\/programa-curso-tm7200_0.pdf"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "application\/pdf"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 160572
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-05-08T17:44:22+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-05-08T17:44:28+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

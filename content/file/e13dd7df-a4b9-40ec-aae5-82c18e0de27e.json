@@ -1,0 +1,82 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/sites\/default\/files\/2020-05\/Microbiolog%C3%ADaQu%C3%ADmicaCl%C3%ADnica.pdf"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "e13dd7df-a4b9-40ec-aae5-82c18e0de27e"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/file\/file\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "337b5c77-26df-4ce3-84d3-d5af10b3819e"
+                    }
+                ]
+            }
+        ]
+    },
+    "filename": [
+        {
+            "value": "Microbiolog\u00edaQu\u00edmicaCl\u00ednica.pdf"
+        }
+    ],
+    "uri": [
+        {
+            "value": "public:\/\/2020-05\/Microbiolog\u00edaQu\u00edmicaCl\u00ednica.pdf",
+            "url": "\/sites\/default\/files\/2020-05\/Microbiolog%C3%ADaQu%C3%ADmicaCl%C3%ADnica.pdf"
+        }
+    ],
+    "filemime": [
+        {
+            "value": "application\/pdf"
+        }
+    ],
+    "filesize": [
+        {
+            "value": 97981
+        }
+    ],
+    "status": [
+        {
+            "value": true
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-05-08T17:37:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-05-08T17:37:04+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ]
+}

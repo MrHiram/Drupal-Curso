@@ -1,0 +1,8 @@
+uuid: 055b3ed6-d0da-4c16-b249-bdd6f84b4519
+langcode: en
+status: true
+dependencies: {  }
+name: Campus
+vid: campus
+description: 'Etiquetas de campus'
+weight: 0

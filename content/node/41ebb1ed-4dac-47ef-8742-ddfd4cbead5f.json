@@ -1,0 +1,191 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/3?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/carrera"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/carrera\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/carrera\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/carrera\/field_campus_en_que_se_imparte": [
+            {
+                "href": "http:\/\/default\/taxonomy\/term\/3?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/carrera\/field_ficha_profesional": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-05\/InformaticaEmpresarial.pdf"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "41ebb1ed-4dac-47ef-8742-ddfd4cbead5f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "carrera"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-05-08T17:36:00+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/carrera\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "337b5c77-26df-4ce3-84d3-d5af10b3819e"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/carrera\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "337b5c77-26df-4ce3-84d3-d5af10b3819e"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/carrera\/field_campus_en_que_se_imparte": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/taxonomy\/term\/3?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/taxonomy_term\/campus"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "8d8deb9e-3586-438e-9acf-5cd610638c8d"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/carrera\/field_ficha_profesional": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-05\/InformaticaEmpresarial.pdf"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "2bd750e2-bedf-416c-9575-134707f1652a"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Inform\u00e1tica Empresarial",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-05-08T17:34:53+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-05-08T17:36:00+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Ribeye cow corned beef, capicola pastrami sausage ham hock meatloaf chicken. Pork sausage t-bone burgdoggen pork loin spare ribs drumstick meatloaf ball tip leberkas ham hock salami short loin boudin. Frankfurter ground round pork strip steak, landjaeger shank cow burgdoggen pork loin meatloaf pork belly sausage. Salami short loin pork loin, brisket pig alcatra buffalo pancetta burgdoggen andouille ground round. Pork belly fatback t-bone brisket. Sausage pork loin drumstick ribeye tri-tip tenderloin shankle alcatra bresaola tongue ball tip chislic andouille.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Ribeye cow corned beef, capicola pastrami sausage ham hock meatloaf chicken. Pork sausage t-bone burgdoggen pork loin spare ribs drumstick meatloaf ball tip leberkas ham hock salami short loin boudin. Frankfurter ground round pork strip steak, landjaeger shank cow burgdoggen pork loin meatloaf pork belly sausage. Salami short loin pork loin, brisket pig alcatra buffalo pancetta burgdoggen andouille ground round. Pork belly fatback t-bone brisket. Sausage pork loin drumstick ribeye tri-tip tenderloin shankle alcatra bresaola tongue ball tip chislic andouille.<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

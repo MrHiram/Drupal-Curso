@@ -1,0 +1,196 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/7?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/curso"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/field_carrera": [
+            {
+                "href": "http:\/\/default\/node\/2?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/field_programa_del_curso": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-05\/Programa%20TM-7101.pdf"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "c5aca8e0-1ec2-4bd1-9d82-b54fb07045a3"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "curso"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-05-08T17:42:49+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "337b5c77-26df-4ce3-84d3-d5af10b3819e"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "337b5c77-26df-4ce3-84d3-d5af10b3819e"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/field_carrera": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/node\/2?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/node\/carrera"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "21cd748e-08fd-4433-952e-31577326f831"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/curso\/field_programa_del_curso": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-05\/Programa%20TM-7101.pdf"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "13dffd97-20c0-494d-93b0-0941d6ce0e4f"
+                    }
+                ]
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Programaci\u00f3n en Drupa",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-05-08T17:41:03+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-05-08T17:42:49+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Drupal es un sistema gestor de contenidos, que puede usarse como herramienta de desarrollo para diferentes tipos de proyectos web. Cuenta con una extensa comunidad de profesionales, su evoluci\u00f3n la ha convertido en una herramienta usada tanto para la creaci\u00f3n de webs corporativas, comercio electr\u00f3nico o aplicaciones web.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Drupal es un sistema gestor de contenidos, que puede usarse como herramienta de desarrollo para diferentes tipos de proyectos web. Cuenta con una extensa comunidad de profesionales, su evoluci\u00f3n la ha convertido en una herramienta usada tanto para la creaci\u00f3n de webs corporativas, comercio electr\u00f3nico o aplicaciones web.<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ],
+    "field_codigo_del_curso": [
+        {
+            "value": "TM 7101"
+        }
+    ]
+}

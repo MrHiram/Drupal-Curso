@@ -1,0 +1,23 @@
+uuid: f9a0e3a9-6205-4b69-a190-4902aed77f18
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - node
+id: node.field_programa_del_curso
+field_name: field_programa_del_curso
+entity_type: node
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+uuid: bbbdcf2d-ffd0-4a08-8ed5-8b8b82d3d9d3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.carrera
+  module:
+    - text
+id: node.carrera.body
+field_name: body
+entity_type: node
+bundle: carrera
+label: 'Descripción de la carrera'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

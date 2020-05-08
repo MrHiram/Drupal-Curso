@@ -1,0 +1,43 @@
+uuid: 7200ad3b-606f-455b-85f5-ad4d3e8e9917
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.carrera.body
+    - field.field.node.carrera.field_campus_en_que_se_imparte
+    - field.field.node.carrera.field_ficha_profesional
+    - node.type.carrera
+  module:
+    - file
+    - text
+    - user
+id: node.carrera.default
+targetEntityType: node
+bundle: carrera
+mode: default
+content:
+  body:
+    label: above
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_campus_en_que_se_imparte:
+    weight: 2
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_ficha_profesional:
+    weight: 1
+    label: hidden
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+hidden:
+  links: true

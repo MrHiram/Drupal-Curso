@@ -1,0 +1,19 @@
+uuid: 5667858e-a7c5-4c59-89e1-844e3871b8df
+langcode: en
+status: true
+dependencies:
+  module:
+    - country_field
+    - node
+id: node.field_country
+field_name: field_country
+entity_type: node
+type: country_field_type
+settings: {  }
+module: country_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
