@@ -1,0 +1,5 @@
+name: 'load_css_js'
+type: module
+description: 'Load CSS and Js Module'
+core: 8.x
+package: 'Custom'
