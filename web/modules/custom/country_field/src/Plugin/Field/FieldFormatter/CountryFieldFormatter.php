@@ -6,7 +6,7 @@ use Drupal\Component\Utility\Html;
 use Drupal\Core\Field\FieldItemInterface;
 use Drupal\Core\Field\FieldItemListInterface;
 use Drupal\Core\Field\FormatterBase;
-
+use Drupal\Core\Locale\CountryManager;
 
 /**
  * Implements plugin 'country_field_formatter_type'
@@ -44,13 +44,10 @@ class CountryFieldFormatter extends FormatterBase{
      * @return void
      */
     private function viewValue(FieldItemInterface $item){
-        /** ToDo:
-         *      Debe imprimir el nombre completo del pais
-         *
-         *      Crear un arreglo de paises y pasa el item->value como llave
-         *      Obtener el nombre del pais y mostrarlo
-         *      ej: $paises[$item->value]
-         */
-        return nl2br(Html::escape($item->value));
+        /*$countryList = CountryManager::getList();
+        *$countryLong = $countryList[$item->value];*/
+
+        $countryList = CountryManager::getStandardList();
+        return nl2br(Html::escape($countryList[$item->value]));
     }
 }
