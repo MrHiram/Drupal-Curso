@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Contains load_css_js.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function load_css_js_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the load_css_js module.
+    case 'help.page.load_css_js':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Load CSS and Js Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+function load_css_js_theme(){
+  return[
+    'item_accordion' => [
+      'variables' => [
+        'title' => '',
+        'description' => ''
+      ],
+      "template" => 'item-accordion'
+    ]
+  ];
+}

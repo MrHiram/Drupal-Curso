@@ -1,0 +1,8 @@
+
+load_css_js.load_css_and_js_controller_index:
+  path: '/load_css_js/index'
+  defaults:
+    _controller: '\Drupal\load_css_js\Controller\LoadCssJsController::index'
+    _title: 'Load css and js files in the module'
+  requirements:
+    _permission: 'access content'
