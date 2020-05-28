@@ -1,0 +1,7 @@
+name: 'load external libs'
+type: module
+description: 'load external libraries module'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - libraries
