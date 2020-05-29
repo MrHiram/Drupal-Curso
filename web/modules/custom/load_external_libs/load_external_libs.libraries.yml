@@ -1,0 +1,10 @@
+load_external_libs:
+    version: 1.x
+    js:
+        js/slider.js: {}
+    dependencies:
+        - core/jquery
+        - core/drupal
+        - core/drupalSettings
+        - core/jquery.once
+        - flexslider/flexslider
